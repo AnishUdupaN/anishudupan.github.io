@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anish Udupa N — Engineering Notes</title>
+    <link>https://anishudupan.github.io/notes/</link>
+    <description>Technical notes on distributed systems, FastAPI security, Linux daemons, and backend engineering.</description>
+    <language>en-us</language>
+    <atom:link href="https://anishudupan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Routing Compute Workloads Across Heterogeneous LAN Nodes Without a Heavy Cluster Manager</title>
+      <link>https://anishudupan.github.io/notes/heterogeneous-lan-task-routing.html</link>
+      <guid>https://anishudupan.github.io/notes/heterogeneous-lan-task-routing.html</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Notes on building a lightweight master-worker orchestrator in Python: capability discovery, heartbeat timeouts, and avoiding head-of-line blocking on mixed hardware.</description>
+    </item>
+    <item>
+      <title>Designing Ephemeral Document Delivery with FastAPI and Android FLAG_SECURE</title>
+      <link>https://anishudupan.github.io/notes/ephemeral-document-delivery-fastapi.html</link>
+      <guid>https://anishudupan.github.io/notes/ephemeral-document-delivery-fastapi.html</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Threat modeling client-side document leaks: why encrypted transport alone is insufficient, how short-lived decryption keys work on mobile clients, and where OS protections stop.</description>
+    </item>
+    <item>
+      <title>Eliminating Periodic Scraping Signatures with Randomized systemd Timers and Decoy Traffic</title>
+      <link>https://anishudupan.github.io/notes/defeating-temporal-fingerprinting-systemd.html</link>
+      <guid>https://anishudupan.github.io/notes/defeating-temporal-fingerprinting-systemd.html</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <description>Why fixed cron intervals get flagged even with clean browser fingerprints, and how a master systemd timer interleaving local-LLM decoy queries breaks periodicity.</description>
+    </item>
+  </channel>
+</rss>
